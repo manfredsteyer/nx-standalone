@@ -53,6 +53,10 @@
               {
                 "sourceTag": "domain:luggage",
                 "onlyDependOnLibsWithTags": ["domain:luggage", "domain:shared"]
+              },
+              {
+                "sourceTag": "domain:checkin",
+                "onlyDependOnLibsWithTags": ["domain:checkin", "domain:shared"]
               }
             ]
           }

@@ -2,6 +2,11 @@
   "$schema": "./node_modules/nx/schemas/workspace-schema.json",
   "version": 2,
   "projects": {
+    "checkin": "apps/checkin",
+    "checkin-domain": "libs/checkin/domain",
+    "checkin-e2e": "apps/checkin-e2e",
+    "checkin-feature-manage": "libs/checkin/feature-manage",
+    "checkin-feature-upgrade": "libs/checkin/feature-upgrade",
     "demo": "apps/demo",
     "demo-e2e": "apps/demo-e2e",
     "luggage": "apps/luggage",
