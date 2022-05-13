@@ -1,10 +1,12 @@
 import { ManageComponent } from '@angular-architects/checkin/feature-manage';
 import { UpgradeComponent } from '@angular-architects/checkin/feature-upgrade';
 import { Component } from '@angular/core';
+import { RouterModule } from '@angular/router';
 
 @Component({
   standalone: true,
   imports: [
+    RouterModule,
     ManageComponent,
     UpgradeComponent,
   ],
