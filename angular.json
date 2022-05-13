@@ -3,6 +3,11 @@
   "version": 2,
   "projects": {
     "demo": "apps/demo",
-    "demo-e2e": "apps/demo-e2e"
+    "demo-e2e": "apps/demo-e2e",
+    "luggage": "apps/luggage",
+    "luggage-domain": "libs/luggage/domain",
+    "luggage-e2e": "apps/luggage-e2e",
+    "luggage-feature-checkin": "libs/luggage/feature-checkin",
+    "luggage-feature-report-loss": "libs/luggage/feature-report-loss"
   }
 }

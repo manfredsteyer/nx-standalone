@@ -1,0 +1,62 @@
+{
+    "hidefiles.configurationType": "local",
+    "hidefiles.globalConfig": {
+        "profiles": [
+            {
+                "name": "Strict",
+                "detail": "Hide everything not immediately required",
+                "hidden": [
+                    "$Default"
+                ]
+            },
+            {
+                "name": "Default",
+                "detail": "",
+                "description": "Test",
+                "hidden": [
+                    ".vscode/",
+                    "libs/luggage/domain/.browserslistrc",
+                    "libs/luggage/domain/.eslintrc.json",
+                    "libs/luggage/domain/jest.config.ts",
+                    "libs/luggage/domain/ng-package.json",
+                    "libs/luggage/domain/package.json",
+                    "libs/luggage/domain/project.json",
+                    "libs/luggage/domain/README.md",
+                    "libs/luggage/domain/tsconfig.json",
+                    "libs/luggage/domain/tsconfig.lib.json",
+                    "libs/luggage/domain/tsconfig.lib.prod.json",
+                    "libs/luggage/domain/tsconfig.spec.json",
+                    "libs/luggage/domain/.browserslistrc",
+                    "libs/luggage/domain/src/index.ts",
+                    "libs/luggage/domain/src/test-setup.ts",
+                    "libs/luggage/feature-checkin/.browserslistrc",
+                    "libs/luggage/feature-checkin/.eslintrc.json",
+                    "libs/luggage/feature-checkin/jest.config.ts",
+                    "libs/luggage/feature-checkin/ng-package.json",
+                    "libs/luggage/feature-checkin/package.json",
+                    "libs/luggage/feature-checkin/project.json",
+                    "libs/luggage/feature-checkin/README.md",
+                    "libs/luggage/feature-checkin/tsconfig.json",
+                    "libs/luggage/feature-checkin/tsconfig.lib.json",
+                    "libs/luggage/feature-checkin/tsconfig.lib.prod.json",
+                    "libs/luggage/feature-checkin/tsconfig.spec.json"
+                ],
+                "peek": [
+                    "index.ts",
+                    "test-setup.ts",
+                    "index.ts",
+                    "test-setup.ts",
+                    "index.ts"
+                ]
+            }
+        ]
+    },
+    "hidefiles.selectedProfile": "Show All Files",
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true
+    }
+}

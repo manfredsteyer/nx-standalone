@@ -14,7 +14,17 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@angular-architects/luggage/domain": [
+        "libs/luggage/domain/src/index.ts"
+      ],
+      "@angular-architects/luggage/feature-checkin": [
+        "libs/luggage/feature-checkin/src/index.ts"
+      ],
+      "@angular-architects/luggage/feature-report-loss": [
+        "libs/luggage/feature-report-loss/src/index.ts"
+      ]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
